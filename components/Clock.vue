@@ -121,6 +121,10 @@ export default {
       now_period: '',
       remain_time: '',
       next_period: '',
+      tomorrow_date: dayjs()
+        .add(1, 'day')
+        .startOf('date')
+        .unix(),
     };
   },
   mounted() {
@@ -158,6 +162,9 @@ export default {
           this.remain_time = '';
         }
         this.next_period = getNextPeriod(pr);
+        if (nd > this.tomorrow_date) {
+          location.reload();
+        }
       }, 1000);
     },
   },

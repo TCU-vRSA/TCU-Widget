@@ -1,7 +1,7 @@
 <template>
   <div class="index-wrapper">
+    <Header />
     <div class="index">
-      <Header />
       <Clock />
       <Links />
     </div>
@@ -25,7 +25,9 @@ export default {
 <style>
 .index-wrapper {
   min-height: 100vh;
-  background-color: #232c4b;
+  background: #232c4b url('/img/bg-yc.jpg');
+  background-blend-mode: multiply;
+  background-size: cover;
 }
 
 .index {
