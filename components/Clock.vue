@@ -187,9 +187,17 @@ export default {
   font-size: 6rem;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 415px) {
   .clock-now-time {
     font-size: 4rem;
+  }
+  .clock {
+    font-size: 0.8rem;
+    padding: 2rem 0;
+    line-height: 1.7;
+  }
+  .clock-next-period {
+    font-size: 0.5rem;
   }
 }
 
