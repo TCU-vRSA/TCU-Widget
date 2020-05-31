@@ -189,11 +189,11 @@ export default {
 
 @media screen and (max-width: 415px) {
   .clock-now-time {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .clock {
     font-size: 0.8rem;
-    padding: 2rem 0;
+    padding: 1.6rem 0;
     line-height: 1.7;
   }
   .clock-next-period {
