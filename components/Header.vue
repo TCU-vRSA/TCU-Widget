@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1>TCU-Widget</h1>
+    <h1>TCU Widget</h1>
   </header>
 </template>
 
