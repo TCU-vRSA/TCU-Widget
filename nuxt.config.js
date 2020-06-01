@@ -1,4 +1,3 @@
-
 export default {
   mode: 'spa',
   /*
@@ -47,6 +46,17 @@ export default {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
+    },
+    optimaization: {
+      analyze: true,
+      minimize: true,
+    },
+    optimizeCSS: true,
+    terser: {
+      parallel: true,
+      cache: false,
+      sourceMap: false,
+
     }
   }
 }
