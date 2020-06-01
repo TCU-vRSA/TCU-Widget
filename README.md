@@ -4,6 +4,8 @@
 
 都市大のオンライン講義で使えるウィジェットツール（PWA アプリ）
 
+[https://widget.tcu-vrsa.net/](https://widget.tcu-vrsa.net/)
+
 ## 概要
 
 ![](https://i.imgur.com/pvfXo2y.png)
