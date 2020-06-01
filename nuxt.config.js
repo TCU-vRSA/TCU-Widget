@@ -12,7 +12,7 @@ export default {
       { hid: 'og:title', name: 'og:title', content: 'TCU Widget - 都市大のオンライン講義で使えるウィジェットツール' },
       { hid: 'og:description', name: 'og:description', content: 'TCU Widget - 都市大のオンライン講義で使えるウィジェットツール' },
       { hid: 'og:url', name: 'og:url', content: 'https://widget.tcu-vrsa.net/' },
-      { hid: 'or:image', name: 'og:image', content: 'https://widget.tcu-vrsa.net/image/ogp.jpg' },
+      { hid: 'or:image', name: 'og:image', content: 'https://widget.tcu-vrsa.net/img/ogp.jpg' },
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
       { hid: 'twitter:site', name: 'twitter:site', content: 'tcu_vrsa' },
     ],
@@ -38,15 +38,31 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
-    ['@nuxtjs/google-analytics', {
-      id: 'UA-163819136-2'
-    }]
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-163819136-2'
+      },
+    ]
   ],
   /*
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/pwa'
   ],
+  pwa: {
+    manifest: {
+      name: 'TCU Widget',
+      title: 'TCU Widget',
+      description: '都市大のオンライン講義で使えるウィジェットツール',
+      lang: 'ja',
+      display: 'standalone',
+      scope: '/',
+      theme_color: '#232c4b',
+      start_url: '/',
+    }
+  },
   /*
   ** Build configuration
   */
