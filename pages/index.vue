@@ -5,6 +5,10 @@
       <Clock />
       <Links />
     </div>
+    <p class="powered">
+      Powered by
+      <a href="https://tcu-vrsa.net/" target="_blank" rel="noopener">TCU-vRSA</a>
+    </p>
   </div>
 </template>
 
@@ -34,5 +38,22 @@ export default {
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
+}
+
+.powered {
+  font-size: 0.6rem;
+  color: #fff;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.powered > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.powered > a:visited {
+  text-decoration: none;
+  color: #fff;
 }
 </style>

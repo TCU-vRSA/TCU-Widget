@@ -35,4 +35,11 @@ export default {
   color: #232c4b;
   transition: background-color 0.3s ease 0s;
 }
+
+@media screen and (max-width: 415px) {
+  .btn {
+    padding: 0.8rem 0;
+    margin: 0.3rem 0;
+  }
+}
 </style>
