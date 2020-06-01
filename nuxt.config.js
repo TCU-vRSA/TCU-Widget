@@ -8,7 +8,13 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'TCU Widget - 都市大生のオンライン講義のためのウィジェットツール' }
+      { hid: 'description', name: 'description', content: 'TCU Widget - 都市大のオンライン講義で使えるウィジェットツール' },
+      { hid: 'og:title', name: 'og:title', content: 'TCU Widget - 都市大のオンライン講義で使えるウィジェットツール' },
+      { hid: 'og:description', name: 'og:description', content: 'TCU Widget - 都市大のオンライン講義で使えるウィジェットツール' },
+      { hid: 'og:url', name: 'og:url', content: 'https://widget.tcu-vrsa.net/' },
+      { hid: 'or:image', name: 'og:image', content: 'https://widget.tcu-vrsa.net/image/ogp.jpg' },
+      { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
+      { hid: 'twitter:site', name: 'twitter:site', content: 'tcu_vrsa' },
     ],
     link: [
     ]

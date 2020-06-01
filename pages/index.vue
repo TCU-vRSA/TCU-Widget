@@ -49,6 +49,7 @@ export default {
 
 .powered > a {
   text-decoration: none;
+  color: #fff;
 }
 
 .powered > a:visited {
