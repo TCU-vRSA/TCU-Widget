@@ -12,7 +12,7 @@ export default {
       { hid: 'og:title', name: 'og:title', content: 'TCU Widget - 都市大のオンライン講義で使えるウィジェットツール' },
       { hid: 'og:description', name: 'og:description', content: 'TCU Widget - 都市大のオンライン講義で使えるウィジェットツール' },
       { hid: 'og:url', name: 'og:url', content: 'https://widget.tcu-vrsa.net/' },
-      { hid: 'or:image', name: 'og:image', content: 'https://widget.tcu-vrsa.net/image/ogp.jpg' },
+      { hid: 'or:image', name: 'og:image', content: 'https://widget.tcu-vrsa.net/img/ogp.jpg' },
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
       { hid: 'twitter:site', name: 'twitter:site', content: 'tcu_vrsa' },
     ],
