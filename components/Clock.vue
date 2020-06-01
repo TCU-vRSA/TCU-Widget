@@ -101,7 +101,7 @@ function getNextPeriod(now_period) {
   if (now_period === '5時限目' || now_period === '時間外') {
     return '1時限目は9時00分からです';
   } else if (now_period === '1時限目' || now_period === '1→2休憩時間') {
-    return '2時限目は10時50分からです';
+    return '2時限目は10時55分からです';
   } else if (now_period === '2時限目' || now_period === '昼休み') {
     return '3時限目は13時20分からです';
   } else if (now_period === '3時限目' || now_period === '3→4休憩時間') {
