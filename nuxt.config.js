@@ -38,10 +38,26 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
-    ['@nuxtjs/google-analytics', {
-      id: 'UA-163819136-2'
-    }]
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-163819136-2'
+      },
+      '@nuxtjs/pwa',
+    ]
   ],
+  pwa: {
+    manifest: {
+      name: 'TCU Widget',
+      title: 'TCU Widget',
+      description: '都市大のオンライン講義で使えるウィジェットツール',
+      lang: 'ja',
+      display: 'standalone',
+      scope: '/',
+      theme_color: '#232c4b',
+      start_url: '/',
+    }
+  },
   /*
   ** Nuxt.js modules
   */
