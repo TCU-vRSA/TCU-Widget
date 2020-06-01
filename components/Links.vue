@@ -12,7 +12,10 @@ export default {
     return {
       links: [
         { name: '出席登録システム', url: 'https://call.off.tcu.ac.jp/index.php' },
-        { name: 'WebClass', url: 'https://webclass.tcu.ac.jp/' },
+        {
+          name: 'WebClass',
+          url: 'https://webclass.tcu.ac.jp/webclass/singlesignon.php?auth_mode=SHIB&auth_only=1',
+        },
         { name: 'ポータルサイト', url: 'https://portal.off.tcu.ac.jp/' },
         { name: 'TCU-Mail', url: 'https://mail.tcu.ac.jp/' },
       ],
