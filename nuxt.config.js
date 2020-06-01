@@ -43,8 +43,13 @@ export default {
       {
         id: 'UA-163819136-2'
       },
-      '@nuxtjs/pwa',
     ]
+  ],
+  /*
+  ** Nuxt.js modules
+  */
+  modules: [
+    '@nuxtjs/pwa'
   ],
   pwa: {
     manifest: {
@@ -58,11 +63,6 @@ export default {
       start_url: '/',
     }
   },
-  /*
-  ** Nuxt.js modules
-  */
-  modules: [
-  ],
   /*
   ** Build configuration
   */
