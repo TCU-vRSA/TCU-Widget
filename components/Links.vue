@@ -11,7 +11,7 @@ export default {
   data() {
     return {
       links: [
-        { name: '出席登録システム', url: 'https://call.off.tcu.ac.jp/index.php' },
+        { name: '出席登録システム', url: 'https://call.off.tcu.ac.jp/' },
         {
           name: 'WebClass',
           url: 'https://webclass.tcu.ac.jp/webclass/singlesignon.php?auth_mode=SHIB&auth_only=1',
